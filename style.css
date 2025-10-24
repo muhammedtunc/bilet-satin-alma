@@ -1,0 +1,84 @@
+body {
+    background-color: #2c2f33; /* Koyu gri */
+    color: #e0e0e0; /* Yumuşak beyaz */
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #23272a; /* Daha koyu gri */
+    border-bottom: 1px solid #3a3f44;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #add8e6 !important; /* Yumuşak mavi vurgu */
+}
+
+.container {
+    background-color: #36393f; /* Orta gri */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Yumuşak gölge */
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+.table {
+    background-color: #2f3136;
+    color: #e0e0e0;
+}
+
+.table thead th {
+    background-color: #202225;
+    color: #ffffff;
+}
+
+.table tbody tr {
+    border-top: 1px solid #3a3f44;
+}
+
+.table tbody tr:hover {
+    background-color: #40444b;
+}
+
+.form-control {
+    background-color: #40444b;
+    border: 1px solid #72767d;
+    color: #e0e0e0;
+}
+
+.form-control:focus {
+    border-color: #add8e6;
+    box-shadow: 0 0 0 0.2rem rgba(173, 216, 230, 0.25); /* Yumuşak mavi gölge */
+}
+
+.btn-primary {
+    background-color: #7289da;
+    border-color: #7289da;
+}
+
+.btn-primary:hover {
+    background-color: #5a6fb5;
+}
+
+.btn-success {
+    background-color: #43b581;
+}
+
+.btn-warning {
+    background-color: #faa61a;
+}
+
+.btn-danger {
+    background-color: #f04747;
+}
+
+.alert {
+    background-color: #f04747;
+    color: #ffffff;
+}
