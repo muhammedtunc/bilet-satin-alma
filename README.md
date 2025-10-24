@@ -19,12 +19,3 @@ docker-compose build
 docker-compose up -d
 
 Sunucu: http://localhost:8080
-
-GitHub'a yükleme:
-git init
-git add .
-git commit -m "Initial dockerize"
-# uzaktan repo oluşturduktan sonra:
-git remote add origin <REPO_URL>
-git branch -M main
-git push -u origin main
